@@ -75,7 +75,7 @@ const BlogPostTemplate = ({ data, location }) => {
             <p class="byline" data-link-name="byline" data-component="meta-byline"><span itemscope="" itemtype="http://schema.org/Person" itemprop="author">
               <p rel="author" class="tone-colour" itemprop="sameAs" data-link-name="auto tag link"><span itemprop="name">Nigel Slater</span></p></span></p>
                 <p class="content__dateline" aria-hidden="true">
-                  <time itemprop="datePublished" datetime="2020-07-26T10:30:20+0100" data-timestamp="1595755820000" class="content__dateline-wpd js-wpd content__dateline-wpd--modified">
+                  <time itemprop="datePublished" class="content__dateline-wpd js-wpd content__dateline-wpd--modified">
                     {post.frontmatter.date}
                   </time>
               <time datetime="2020-07-26T20:39:30+0100" data-timestamp="1595792370000" class="content__dateline-lm js-lm u-h" itemprop="dateModified">
@@ -274,7 +274,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "ddd DD MMMM YYYY")
         description
       }
     }
