@@ -18,9 +18,9 @@ const Menu = () => {
 
 </div>
 <header class="new-header pillar-scheme--Lifestyle" role="banner">
-<nav class="new-header__inner gs-container" data-component="nav2" role="navigation" aria-label="Guardian sections">
+<nav class="new-header__inner gs-container" data-component="nav2" role="navigation" aria-label="Grauniad sections">
 <p href="https://www.theguardian.com/uk" class="new-header__logo" data-link-name="nav2 : logo">
-<span class="u-h">The Guardian - Back to home</span>
+<span class="u-h">The Grauniad - Back to home</span>
 <span class="inline-the-guardian-logo inline-logo ">
 <svg viewBox="0 0 297 95" class="inline-the-guardian-logo__svg inline-logo__svg">
     <path class="st0" d="M66.8,50.7l5-2.6V8.4H68l-9.3,12.4h-1L58.2,7h40.5l0.6,13.8h-1.1L89,8.4h-3.9V48l5,2.7V52H66.9L66.8,50.7
@@ -53,7 +53,7 @@ const Menu = () => {
 <div class="new-header__cta-bar hide-until-mobile">
 <div class="cta-bar__text hide-until-tablet">
 <div class="cta-bar__heading">
-Support The Guardian
+Support The Grauniad
 </div>
 <div class="cta-bar__subheading">
 Available for everyone, funded by readers

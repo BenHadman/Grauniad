@@ -157,21 +157,8 @@ const BlogPostTemplate = ({ data, location }) => {
             </div>
             <div class="submeta__keywords">
               <ul class="submeta__links">
-              <li class="submeta__link-item">
-              <a class="submeta__link" href="https://www.theguardian.com/food/chicken" data-link-name="keyword: food/chicken">
-              Chicken
-              </a>
-              </li>
-              <li class="submeta__link-item">
-              <a class="submeta__link" href="https://www.theguardian.com/food/vegetables" data-link-name="keyword: food/vegetables">
-              Vegetables
-              </a>
-              </li>
-              <li class="submeta__link-item">
-              <a class="submeta__link" href="https://www.theguardian.com/food/salad" data-link-name="keyword: food/salad">
-              Salad
-              </a>
-              </li>
+              {post.frontmatter.tags.map((tag) => <li class="submeta__link-item"><a class="submeta__link" href="" data-link-name="keyword: food/chicken">{tag}</a></li>)}
+              
               <li class="submeta__link-item">
               <a class="submeta__link" href="https://www.theguardian.com/tone/recipes" data-link-name="tone: recipes">
               recipes
@@ -276,6 +263,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "ddd DD MMMM YYYY")
         description
+        tags
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
@@ -292,6 +280,12 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+      }
+    }
+    allMarkdownRemark {
+      group(field: frontmatter___tags) {
+        tag: fieldValue
+        totalCount
       }
     }
   }
