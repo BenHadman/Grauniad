@@ -12,16 +12,7 @@ module.exports = {
     },
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Merriweather`
-          },
-        ],
-      },
-    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
