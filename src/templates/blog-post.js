@@ -178,10 +178,10 @@ const BlogPostTemplate = ({ data, location }) => {
               <div class="contributions__adblock-content">
                   <div class="contributions__adblock-header">
                       <h2>
-                          Read The<br/>
-                          Guardian without<br/>
-                          interruption on all<br/>
-                          your devices
+                          Get The<br/>
+                          Gruaniad Food Blog<br/>
+                          delivered to<br/>
+                          your inbox
                       </h2>
                   </div>
                   <a class="contributions__adblock-button" href="https://support.theguardian.com/subscribe/digital?acquisitionData=%7B%22componentType%22%3A%22ACQUISITIONS_OTHER%22%2C%22source%22%3A%22GUARDIAN_WEB%22%2C%22campaignCode%22%3A%22shady_pie_open_2019%22%2C%22componentId%22%3A%22shady_pie_open_2019%22%7D&amp;INTCMP=shady_pie_open_2019">
