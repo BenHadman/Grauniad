@@ -178,8 +178,8 @@ const BlogPostTemplate = ({ data, location }) => {
               <div class="contributions__adblock-content">
                   <div class="contributions__adblock-header">
                       <h2>
-                          Get The<br/>
-                          Gruaniad Food Blog<br/>
+                          Get The Grauniad<br/>
+                          Food Blog<br/>
                           delivered to<br/>
                           your inbox
                       </h2>

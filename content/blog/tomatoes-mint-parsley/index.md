@@ -3,12 +3,9 @@ title: Nigel Slater’s roast tomatoes with mint and parsley recipe
 date: "2015-05-28T22:40:32.169Z"
 description: tomatoes, mint and parsley.
 featuredImage: salty_egg.jpg
-tags: ["Chicken", "Vegetables", "Salad"]
+tags: ["Tomatoes", "Mint", "Parsley"]
 ---
 
-
-Nigel Slater’s roast tomatoes with mint and parsley recipe
-==========================================================
 
 The recipe
 ----------
