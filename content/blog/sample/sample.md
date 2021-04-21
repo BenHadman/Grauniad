@@ -1,17 +1,14 @@
 ---
-title: Sample
+title: Sample Nigel Slater’s Salted Duck Eggs
 date: "2021-02-01T22:12:03.284Z"
 description: "Sample Output on web"
 featuredImage: salty_egg.jpg
 tags: ["Chicken", "Vegetables", "Salad"]
 ---
 
-This is a sample output of model02it34
-
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+**This is a sample output of model02it34.**
 
 Get away from your desk to enjoy pastrami sandwiches, crispy-fried kefir chicken, and raspberry burrata focaccia.
-=================================================================================================================
 
 I work from home, but I refuse to eat at my desk. It is one of those small rules of life I have upheld for as long as I can remember.
 
